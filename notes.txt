@@ -1,0 +1,1 @@
+In JavaScript, a default export is a way to share a single value, function, or class as the main thing from a file with other parts of your code.
