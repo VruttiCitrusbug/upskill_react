@@ -1,11 +1,14 @@
 import React from "react";
-function functionclick(){
+function functionclick(props){
+    console.log(props);
     function clickhandle(){
-        console.log('btn')
+        props.name = 'aaa'
     }
     return (
         <div>
-            <button onClick={clickhandle}>Click</button>
+            {/* <button onClick={clickhandle}>{props.name}</button> */}
+            <button >{props.name}</button>
+            <h1></h1>
         </div>
     )
 }

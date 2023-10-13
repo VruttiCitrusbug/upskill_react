@@ -5,7 +5,8 @@ function HookCounter2() {
     const initcount = 0
     const [count, setcount] = useState(initcount)
     const plus5 = () => {
-        for(let i=0;i<5;i++){
+        for(let i=0;i<5;i++){ 
+            console.log(count)
             setcount(previous => previous+1)
         }
     }
