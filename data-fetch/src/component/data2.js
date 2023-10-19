@@ -7,6 +7,7 @@ const initvalue = {
     error:''
 }
 
+
 function Data2() {
 
     const reducer = (state,action) => {
