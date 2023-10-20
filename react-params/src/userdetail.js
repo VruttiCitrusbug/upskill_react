@@ -1,9 +1,7 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-
+import React from 'react';
 function UserDetail() {
   return (
-    <><div>UserDetail</div><Outlet /></>
+    <div>UserDetail</div>
   )
 }
 
